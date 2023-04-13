@@ -1,0 +1,26 @@
+{"intents":[
+ {"tag":"greeting",
+  "patterns":["hi","hello","hi there","welcome"],
+  "responses":["hello","hi there, how can I help you?"]
+  },
+ {"tag":"goodbye",
+  "patterns":["bye","See you later","goodbye","Nice chatting to you, bye"],
+  "responses":["See you","Have a nice day","Bye! come back again soon"]
+  },
+ {"tag":"thanks",
+  "patterns":["Thanks","Thank you","that is helpful","Awesome, thanks","Thnaks for helping"],
+  "responses":["Happy to help","Any time!","My pleasure"]
+  },
+ {"tag":"noanswer",
+ "patterns":[],
+ "responses":["Sorry, cant understand you","Please give me more info"]
+ },
+  {"tag":"continent",
+   "patterns":["How many continent?","What is the number of continent","What are the names of continent"],
+   "responses":["Seven continent :Asia, Africa, North America, South America, Antarctica, Europe, and Australia."]
+   },
+   {"tag":"creator",
+    "patterns":["Who are you?","Who I talk to ?","What is your name?"],
+    "responses":["Hi I am a chatbot I am here to help you "]
+    }
+ ]}
